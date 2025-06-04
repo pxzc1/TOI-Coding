@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int practice, midterm, finalExam;
+    cin >> practice >> midterm >> finalExam;
+
+    if (practice >= 5 && midterm >= 20 && finalExam >= 25) {
+        cout << "pass" << endl;
+    } else {
+        cout << "fail" << endl;
+    }
+    return 0;
+}
