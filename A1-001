@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  char firstname[100];
+  char lastname[100];
+  cin >> firstname >> lastname;
+  cout << "Hello " << firstname << " " << lastname << endl;
+  cout << firstname[0] << firstname[1] << lastname[0] << lastname[1];
+}
